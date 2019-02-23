@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "name": "workshop-solidity",
+  "version": "0.0.0",
+  "description": "learn the basics of solidity",
+  "scripts": {
+    "start": "budo index.js:bundle.js --title $npm_package_name --force-default-index --ssl --live --open",
+    "build": "browserify index.js -o bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethereum-play/workshop-solidity.git"
+  },
+  "keywords": [
+    "solidity",
+    "workshop",
+    "workshopping",
+    "play",
+    "tutorial"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ethereum/play/issues"
+  },
+  "homepage": "https://ethereum-play.github.io/workshop-solidity/",
+  "devDependencies": {
+    "budo": "^11.6.0"
+  },
+  "dependencies": {
+    "play-workshop": "^0.1.2"
+  }
+}

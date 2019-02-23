@@ -1,2 +1,2 @@
-# workshop-solidity
-workshop for ethereum solidity
+# workshop solidity
+learn the basics of solidity
