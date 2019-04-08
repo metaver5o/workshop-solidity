@@ -1,12 +1,11 @@
 {
   "title": "SOLIDITY",
-  "version": "1.0.0",
   "icon": "./assets/logo.svg",
   "chat": "https://gitter.im/wizardamigosinstitute/program/~embed",
   "lessons": [{
     "title": "The basics",
     "lesson": "https://www.youtube.com/embed/v_hU0jPtLto",
-    "tool": "https://ethereum-play.github.io/editor-solidity/",
+    "tool": "https://remix.ethereum.org/",
     "info": [
       "Solidity is an object-oriented, high-level language for implementing ",
       "smart contracts. Smart contracts are programs which govern the behaviour ",
@@ -20,7 +19,7 @@
   },{
     "title": "Inheritance",
     "lesson": "https://www.youtube.com/embed/6hkmLOtIq8A",
-    "tool": "https://ethereum-play.github.io/editor-solidity/",
+    "tool": "https://remix.ethereum.org/",
     "info": [
       "Solidity supports multiple inheritance by copying code including polymorphism. ",
       "All function calls are virtual, which means that the most derived function is ",
@@ -34,7 +33,7 @@
   },{
     "title": "Custom Modifiers and Error Handling",
     "lesson": "https://www.youtube.com/embed/3ObTNzDM3wI",
-    "tool": "https://ethereum-play.github.io/editor-solidity/",
+    "tool": "https://remix.ethereum.org/",
     "info": [
       "Modifiers can be used to easily change the behaviour of functions. ",
       "For example, they can automatically check a condition prior to executing ",
@@ -46,7 +45,7 @@
   },{
     "title": "Imports and Libraries",
     "lesson": "https://www.youtube.com/embed/0Lyf_3kA3Ms",
-    "tool": "https://ethereum-play.github.io/editor-solidity/",
+    "tool": "https://remix.ethereum.org/",
     "info": [
       "Solidity supports import statements that are very similar to those ",
       "available in JavaScript (from ES6 on), although Solidity does not know ",
@@ -61,7 +60,7 @@
   },{
     "title": "Event logging and Transaction Information",
     "lesson": "https://www.youtube.com/embed/Jlq997yOoRs",
-    "tool": "https://ethereum-play.github.io/editor-solidity/",
+    "tool": "https://remix.ethereum.org/",
     "info": [
       "Events are inheritable members of contracts. When you call them, ",
       "they cause the arguments to be stored in the transaction’s log ",
@@ -74,7 +73,7 @@
   },{
     "title": "Data Types (Array, Mapping, Struct)",
     "lesson": "https://www.youtube.com/embed/8UhO3IKApSg",
-    "tool": "https://ethereum-play.github.io/editor-solidity/",
+    "tool": "https://remix.ethereum.org/",
     "info": [
       "Solidity is a statically typed language, which means that the type of each ",
       "variable (state and local) needs to be specified. Solidity provides ",
@@ -84,7 +83,7 @@
   },{
     "title": "Extending String Functionality and Bytes",
     "lesson": "https://www.youtube.com/embed/6iiWwT0O2fY",
-    "tool": "https://ethereum-play.github.io/editor-solidity/",
+    "tool": "https://remix.ethereum.org/",
     "info": [
       "They do not imply trailing zeroes as in C; foo represents three bytes, ",
       "String literals are written with either double or single-quotes. ",
@@ -96,7 +95,7 @@
   },{
     "title": "Functional Assembly",
     "lesson": "https://www.youtube.com/embed/nkGN6GwkMzU",
-    "tool": "https://ethereum-play.github.io/editor-solidity/",
+    "tool": "https://remix.ethereum.org/",
     "info": [
       "Solidity defines an assembly language that you can use without Solidity ",
       "and also as inline assembly inside Solidity source ",
@@ -107,7 +106,7 @@
   },{
     "title": "Instructional Assembly",
     "lesson": "https://www.youtube.com/embed/axZJ2NFMH5Q",
-    "tool": "https://ethereum-play.github.io/editor-solidity/",
+    "tool": "https://remix.ethereum.org/",
     "info": [
       "Assembly parses comments, literals and identifiers in the same way as ",
       "Solidity, so you can use the usual // and /* */ comments. ",
@@ -116,7 +115,7 @@
   },{
     "title": "Public vs External",
     "lesson": "https://www.youtube.com/embed/Ii4g38mPPlg",
-    "tool": "https://ethereum-play.github.io/editor-solidity/",
+    "tool": "https://remix.ethereum.org/",
     "info": [
       "Since Solidity knows two kinds of function calls (internal ones that ",
       "do not create an actual EVM call (also called a message call) ",
@@ -127,7 +126,7 @@
   },{
     "title": "Time Based Events",
     "lesson": "https://www.youtube.com/embed/HGw-yalqdgs",
-    "tool": "https://ethereum-play.github.io/editor-solidity/",
+    "tool": "https://remix.ethereum.org/",
     "info": [
       "There is only two ways how you can implement time based events: through ",
       "the blocks/block time or simply by using a trigger mechanism from an ",
@@ -137,7 +136,7 @@
   },{
     "title": "Polymorphism",
     "lesson": "https://www.youtube.com/embed/l_E5F5qnbtk",
-    "tool": "https://ethereum-play.github.io/editor-solidity/",
+    "tool": "https://remix.ethereum.org/",
     "info": [
       "Polymorphism is a feature of many programming languages which is ",
       "some inherited functions to specialize their behavior. Let's see ",
@@ -148,7 +147,7 @@
   },{
     "title": "Randomness and Gambling",
     "lesson": "https://www.youtube.com/embed/3wY5PRliphE",
-    "tool": "https://ethereum-play.github.io/editor-solidity/",
+    "tool": "https://remix.ethereum.org/",
     "info": [
       "Everything you use in a smart contract is publicly visible, even local ",
       "variables and state variables marked private. Using random numbers in ",
@@ -159,7 +158,7 @@
   },{
     "title": "Nested Arrays and Storage",
     "lesson": "https://www.youtube.com/embed/zkNHRJEuYQg",
-    "tool": "https://ethereum-play.github.io/editor-solidity/",
+    "tool": "https://remix.ethereum.org/",
     "info": [
       "Statically-sized variables (everything except mapping and ",
       "dynamically-sized array types) are laid out contiguously in storage ",
@@ -170,7 +169,7 @@
   },{
     "title": "Parameter Mapping and Multiple Return Values",
     "lesson": "https://www.youtube.com/embed/v3aoiTh-UVQ",
-    "tool": "https://ethereum-play.github.io/editor-solidity/",
+    "tool": "https://remix.ethereum.org/",
     "info": [
       "As in Javascript, functions may take parameters as input; unlike in ",
       "Javascript and C, they may also return arbitrary number of parameters ",
@@ -180,7 +179,7 @@
   },{
     "title": "State Modifiers (view, pure, constant)",
     "lesson": "https://www.youtube.com/embed/RKos31UueqY",
-    "tool": "https://ethereum-play.github.io/editor-solidity/",
+    "tool": "https://remix.ethereum.org/",
     "info": [
       "State variables can be declared as constant. In this case, they have ",
       "to be assigned from an expression which is a constant at compile time. ",
@@ -192,7 +191,7 @@
   },{
     "title": "Auditing, Security and Testing",
     "lesson": "https://www.youtube.com/embed/LGCMZ7S_ITE",
-    "tool": "https://ethereum-play.github.io/editor-solidity/",
+    "tool": "https://remix.ethereum.org/",
     "info": [
       "Since software is written by humans, it can have bugs. Thus, also smart ",
       "contracts should be created following well-known best-practices in ",
@@ -202,9 +201,9 @@
     ]
   }],
   "needs": [
-    "https://foobar.com"
+    "https://ninabreznik.github.io/play-workshop-chainsafe-blockchainbootcamp-introduction/"
   ],
   "unlocks": [
-    "https://google.com"
+    "https://ninabreznik.github.io/play-workshop-remix"
   ]
 }

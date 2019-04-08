@@ -1,24 +1,8 @@
+
 const workshop = require('play-workshop')
 
-setTimeout(async () => {
-  var app = await workshop()
-  const el = await app.render()
-  document.body.appendChild(el)
-}, 0)
+document.head.innerHTML = `<style> body {
+  box-sizing: border-box; width: 100vw; height: 100vh; margin: 0;
+}</style>`
 
-var st = document.createElement('style')
-st.innerHTML = `
-  html {
-    box-sizing: border-box;
-    display: table;
-    min-width: 100%;
-    margin: 0;
-  }
-  body {
-    box-sizing: border-box;
-    margin: 0;
-    display: flex;
-    flex-flow: column;
-    height: 100vh;
-  }`
-document.head.appendChild(st)
+;(async () => document.body.appendChild(await workshop()))()
